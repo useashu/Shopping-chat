@@ -1,0 +1,38 @@
+{
+  "name": "shopping-chat-agent",
+  "displayName": "Shopping Chat Agent",
+  "description": "AI-powered mobile phone shopping assistant",
+  "icon": "mobile",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit",
+    "deploy": "vercel",
+    "test": "echo \"Testing adversarial prompts...\" && npm run lint"
+  },
+  "keywords": [
+    "ai",
+    "chatbot",
+    "mobile-phones",
+    "shopping-assistant",
+    "nextjs",
+    "gemini-ai",
+    "conversational-ai",
+    "recommendation-system"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/useashu/shopping-chat-agent"
+  },
+  "author": {
+    "name": "Your Name",
+    "email": "your.email@example.com"
+  },
+  "license": "MIT"
+}

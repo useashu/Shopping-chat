@@ -1,0 +1,469 @@
+{
+  "phones": [
+    {
+      "id": 1,
+      "name": "iPhone 15",
+      "brand": "Apple",
+      "model": "iPhone 15",
+      "price": 79900,
+      "availability": "in-stock",
+      "imageUrl": "/images/phones/iphone-15.jpg",
+      "category": "premium",
+      "releaseDate": "2023-09-22",
+      "rating": 4.5,
+      "specs": {
+        "display": { "size": "6.1 inches", "resolution": "1179x2556", "type": "Super Retina XDR OLED", "refreshRate": "60Hz", "brightness": "1000 nits" },
+        "processor": { "chipset": "A16 Bionic", "cpu": "Hexa-core", "gpu": "Apple GPU (5-core)" },
+        "memory": { "ram": "6GB", "storage": ["128GB", "256GB", "512GB"], "expandable": false },
+        "camera": {
+          "rear": { "primary": "48MP", "ultrawide": "12MP", "features": ["OIS", "Night mode", "Portrait", "Cinematic mode"] },
+          "front": { "primary": "12MP", "features": ["Portrait", "Night mode", "Face ID"] },
+          "video": { "rear": "4K@60fps", "front": "4K@60fps" }
+        },
+        "battery": { "capacity": "3349mAh", "fastCharging": "20W", "wirelessCharging": "15W", "batteryLife": "Up to 20 hours video" },
+        "os": { "name": "iOS 17", "version": "17.0", "upgradable": true },
+        "build": { "dimensions": "147.6 x 71.6 x 7.80 mm", "weight": "171g", "material": "Aluminum frame, Glass back", "colors": ["Blue", "Pink", "Yellow", "Green", "Black"], "waterResistance": "IP68" },
+        "connectivity": { "network": ["5G", "4G LTE"], "wifi": "Wi-Fi 6", "bluetooth": "5.3", "nfc": true, "usb": "USB-C" },
+        "security": ["Face ID"],
+        "sensors": ["Accelerometer", "Gyroscope", "Proximity", "Ambient light"]
+      },
+      "features": ["Face ID", "Wireless charging", "Water resistant", "5G", "Night mode"],
+      "pros": ["Excellent camera quality", "Premium build", "Great ecosystem", "Long software support"],
+      "cons": ["60Hz display", "No expandable storage", "Expensive"]
+    },
+    {
+      "id": 2,
+      "name": "Samsung Galaxy S24",
+      "brand": "Samsung",
+      "model": "Galaxy S24",
+      "price": 74999,
+      "availability": "in-stock",
+      "imageUrl": "/images/phones/galaxy-s24.jpg",
+      "category": "premium",
+      "releaseDate": "2024-01-17",
+      "rating": 4.4,
+      "specs": {
+        "display": { "size": "6.2 inches", "resolution": "1080x2340", "type": "Dynamic AMOLED 2X", "refreshRate": "120Hz", "brightness": "2600 nits" },
+        "processor": { "chipset": "Snapdragon 8 Gen 3", "cpu": "Octa-core", "gpu": "Adreno 750" },
+        "memory": { "ram": "8GB", "storage": ["128GB", "256GB"], "expandable": false },
+        "camera": {
+          "rear": { "primary": "50MP", "ultrawide": "12MP", "telephoto": "10MP", "features": ["OIS", "Night mode", "Portrait", "Pro mode", "3x optical zoom"] },
+          "front": { "primary": "12MP", "features": ["Portrait", "Night mode"] },
+          "video": { "rear": "8K@30fps", "front": "4K@60fps" }
+        },
+        "battery": { "capacity": "4000mAh", "fastCharging": "25W", "wirelessCharging": "15W", "batteryLife": "Up to 22 hours video" },
+        "os": { "name": "Android 14", "version": "One UI 6.0", "upgradable": true },
+        "build": { "dimensions": "147.0 x 70.6 x 7.6 mm", "weight": "167g", "material": "Aluminum frame, Glass back", "colors": ["Onyx Black", "Marble Gray", "Cobalt Violet", "Amber Yellow"], "waterResistance": "IP68" },
+        "connectivity": { "network": ["5G", "4G LTE"], "wifi": "Wi-Fi 6E", "bluetooth": "5.3", "nfc": true, "usb": "USB-C" },
+        "security": ["Fingerprint", "Face unlock"],
+        "sensors": ["Accelerometer", "Gyroscope", "Proximity", "Compass"]
+      },
+      "features": ["120Hz display", "Wireless charging", "Water resistant", "5G", "S Pen support"],
+      "pros": ["120Hz AMOLED display", "Excellent cameras", "Good performance", "Regular updates"],
+      "cons": ["No expandable storage", "Average battery life", "Expensive"]
+    },
+    {
+      "id": 3,
+      "name": "OnePlus 12R",
+      "brand": "OnePlus",
+      "model": "12R",
+      "price": 39999,
+      "availability": "in-stock",
+      "imageUrl": "/images/phones/oneplus-12r.jpg",
+      "category": "mid-range",
+      "releaseDate": "2024-02-13",
+      "rating": 4.3,
+      "specs": {
+        "display": { "size": "6.78 inches", "resolution": "1264x2780", "type": "LTPO4 AMOLED", "refreshRate": "120Hz", "brightness": "4500 nits" },
+        "processor": { "chipset": "Snapdragon 8 Gen 2", "cpu": "Octa-core", "gpu": "Adreno 740" },
+        "memory": { "ram": "8GB", "storage": ["128GB", "256GB"], "expandable": false },
+        "camera": {
+          "rear": { "primary": "50MP", "ultrawide": "8MP", "macro": "2MP", "features": ["OIS", "Night mode", "Portrait", "Pro mode"] },
+          "front": { "primary": "16MP", "features": ["Portrait", "Night mode"] },
+          "video": { "rear": "4K@60fps", "front": "1080p@30fps" }
+        },
+        "battery": { "capacity": "5500mAh", "fastCharging": "100W", "wirelessCharging": "50W", "batteryLife": "Up to 25 hours video" },
+        "os": { "name": "Android 14", "version": "OxygenOS 14", "upgradable": true },
+        "build": { "dimensions": "163.3 x 75.3 x 8.8 mm", "weight": "207g", "material": "Aluminum frame, Glass back", "colors": ["Cool Blue", "Iron Gray"], "waterResistance": "IP64" },
+        "connectivity": { "network": ["5G", "4G LTE"], "wifi": "Wi-Fi 7", "bluetooth": "5.4", "nfc": true, "usb": "USB-C" },
+        "security": ["Fingerprint", "Face unlock"],
+        "sensors": ["Accelerometer", "Gyroscope", "Proximity", "Compass"]
+      },
+      "features": ["100W fast charging", "120Hz display", "Large battery", "5G", "Premium design"],
+      "pros": ["Extremely fast charging", "Large battery", "Smooth performance", "Great value"],
+      "cons": ["Average camera", "No wireless charging", "Heavy build"]
+    },
+    {
+      "id": 4,
+      "name": "Google Pixel 8a",
+      "brand": "Google",
+      "model": "Pixel 8a",
+      "price": 52999,
+      "availability": "in-stock",
+      "imageUrl": "/images/phones/pixel-8a.jpg",
+      "category": "mid-range",
+      "releaseDate": "2024-05-14",
+      "rating": 4.2,
+      "specs": {
+        "display": { "size": "6.1 inches", "resolution": "1080x2400", "type": "OLED", "refreshRate": "120Hz", "brightness": "1400 nits" },
+        "processor": { "chipset": "Google Tensor G3", "cpu": "Octa-core", "gpu": "Mali-G715 MP7" },
+        "memory": { "ram": "8GB", "storage": ["128GB", "256GB"], "expandable": false },
+        "camera": {
+          "rear": { "primary": "64MP", "ultrawide": "13MP", "features": ["OIS", "Night Sight", "Portrait", "Magic Eraser", "Real Tone"] },
+          "front": { "primary": "13MP", "features": ["Portrait", "Night Sight"] },
+          "video": { "rear": "4K@60fps", "front": "4K@30fps" }
+        },
+        "battery": { "capacity": "4492mAh", "fastCharging": "18W", "wirelessCharging": "7.5W", "batteryLife": "Up to 24 hours typical use" },
+        "os": { "name": "Android 14", "version": "Pure Android", "upgradable": true },
+        "build": { "dimensions": "152.1 x 72.7 x 8.9 mm", "weight": "193g", "material": "Aluminum frame, Plastic back", "colors": ["Obsidian", "Porcelain", "Bay", "Aloe"], "waterResistance": "IP67" },
+        "connectivity": { "network": ["5G", "4G LTE"], "wifi": "Wi-Fi 6E", "bluetooth": "5.3", "nfc": true, "usb": "USB-C" },
+        "security": ["Fingerprint", "Face unlock"],
+        "sensors": ["Accelerometer", "Gyroscope", "Proximity", "Compass"]
+      },
+      "features": ["Pure Android", "Excellent camera AI", "Fast updates", "5G", "Wireless charging"],
+      "pros": ["Best-in-class camera", "Clean Android experience", "Fast security updates", "AI features"],
+      "cons": ["Slow charging", "Plastic build", "Average performance"]
+    },
+    {
+      "id": 5,
+      "name": "Realme GT 6",
+      "brand": "Realme",
+      "model": "GT 6",
+      "price": 35999,
+      "availability": "in-stock",
+      "imageUrl": "/images/phones/realme-gt6.jpg",
+      "category": "mid-range",
+      "releaseDate": "2024-06-20",
+      "rating": 4.0,
+      "specs": {
+        "display": { "size": "6.78 inches", "resolution": "1264x2780", "type": "LTPO AMOLED", "refreshRate": "120Hz", "brightness": "6000 nits" },
+        "processor": { "chipset": "Snapdragon 8s Gen 3", "cpu": "Octa-core", "gpu": "Adreno 735" },
+        "memory": { "ram": "8GB", "storage": ["128GB", "256GB"], "expandable": true, "maxExpandable": "1TB" },
+        "camera": {
+          "rear": { "primary": "50MP", "ultrawide": "8MP", "features": ["OIS", "Night mode", "Portrait", "Pro mode"] },
+          "front": { "primary": "32MP", "features": ["Portrait", "Night mode"] },
+          "video": { "rear": "4K@60fps", "front": "1080p@30fps" }
+        },
+        "battery": { "capacity": "5500mAh", "fastCharging": "120W", "batteryLife": "Up to 26 hours video" },
+        "os": { "name": "Android 14", "version": "Realme UI 5.0", "upgradable": true },
+        "build": { "dimensions": "162.0 x 75.1 x 8.2 mm", "weight": "199g", "material": "Plastic frame, Glass back", "colors": ["Fluid Silver", "Razor Green"], "waterResistance": "IP65" },
+        "connectivity": { "network": ["5G", "4G LTE"], "wifi": "Wi-Fi 6", "bluetooth": "5.4", "nfc": true, "usb": "USB-C" },
+        "security": ["Fingerprint", "Face unlock"],
+        "sensors": ["Accelerometer", "Gyroscope", "Proximity", "Compass"]
+      },
+      "features": ["120W fast charging", "120Hz display", "Large battery", "5G", "Expandable storage"],
+      "pros": ["Ultra-fast 120W charging", "Great value for money", "Large battery", "Bright display"],
+      "cons": ["Plastic build", "Average camera", "Heavy software skin"]
+    },
+    {
+      "id": 6,
+      "name": "Nothing Phone (2a)",
+      "brand": "Nothing",
+      "model": "Phone (2a)",
+      "price": 23999,
+      "availability": "in-stock",
+      "imageUrl": "/images/phones/nothing-2a.jpg",
+      "category": "mid-range",
+      "releaseDate": "2024-03-05",
+      "rating": 4.1,
+      "specs": {
+        "display": { "size": "6.7 inches", "resolution": "1080x2412", "type": "AMOLED", "refreshRate": "120Hz", "brightness": "1300 nits" },
+        "processor": { "chipset": "MediaTek Dimensity 7200 Pro", "cpu": "Octa-core", "gpu": "Mali-G610 MC4" },
+        "memory": { "ram": "8GB", "storage": ["128GB", "256GB"], "expandable": false },
+        "camera": {
+          "rear": { "primary": "50MP", "ultrawide": "50MP", "features": ["Night mode", "Portrait", "Pro mode"] },
+          "front": { "primary": "32MP", "features": ["Portrait", "Night mode"] },
+          "video": { "rear": "4K@30fps", "front": "1080p@30fps" }
+        },
+        "battery": { "capacity": "5000mAh", "fastCharging": "45W", "batteryLife": "Up to 24 hours typical use" },
+        "os": { "name": "Android 14", "version": "Nothing OS 2.5", "upgradable": true },
+        "build": { "dimensions": "161.7 x 76.3 x 8.6 mm", "weight": "190g", "material": "Aluminum frame, Glass back", "colors": ["Milk", "Black"], "waterResistance": "IP54" },
+        "connectivity": { "network": ["5G", "4G LTE"], "wifi": "Wi-Fi 6", "bluetooth": "5.3", "nfc": true, "usb": "USB-C" },
+        "security": ["Fingerprint", "Face unlock"],
+        "sensors": ["Accelerometer", "Gyroscope", "Proximity", "Compass"]
+      },
+      "features": ["Glyph interface", "120Hz display", "Clean software", "5G", "Unique design"],
+      "pros": ["Unique transparent design", "Clean Android experience", "Good cameras", "Great value"],
+      "cons": ["No wireless charging", "Limited water resistance", "Average battery life"]
+    },
+    {
+      "id": 7,
+      "name": "Redmi Note 13 Pro+",
+      "brand": "Xiaomi",
+      "model": "Redmi Note 13 Pro+",
+      "price": 31999,
+      "availability": "in-stock",
+      "imageUrl": "/images/phones/redmi-note13-pro-plus.jpg",
+      "category": "mid-range",
+      "releaseDate": "2024-01-04",
+      "rating": 4.2,
+      "specs": {
+        "display": { "size": "6.67 inches", "resolution": "1220x2712", "type": "AMOLED", "refreshRate": "120Hz", "brightness": "1800 nits" },
+        "processor": { "chipset": "MediaTek Dimensity 7200 Ultra", "cpu": "Octa-core", "gpu": "Mali-G610 MC4" },
+        "memory": { "ram": "8GB", "storage": ["256GB"], "expandable": true, "maxExpandable": "1TB" },
+        "camera": {
+          "rear": { "primary": "200MP", "ultrawide": "8MP", "macro": "2MP", "features": ["OIS", "Night mode", "Portrait", "Pro mode"] },
+          "front": { "primary": "16MP", "features": ["Portrait", "Night mode"] },
+          "video": { "rear": "4K@30fps", "front": "1080p@30fps" }
+        },
+        "battery": { "capacity": "5000mAh", "fastCharging": "120W", "batteryLife": "Up to 25 hours video" },
+        "os": { "name": "Android 14", "version": "HyperOS", "upgradable": true },
+        "build": { "dimensions": "161.4 x 74.2 x 8.9 mm", "weight": "204g", "material": "Plastic frame, Glass back", "colors": ["Midnight Black", "Fusion Purple", "Fusion White"], "waterResistance": "IP68" },
+        "connectivity": { "network": ["5G", "4G LTE"], "wifi": "Wi-Fi 6", "bluetooth": "5.4", "nfc": true, "usb": "USB-C" },
+        "security": ["Fingerprint", "Face unlock"],
+        "sensors": ["Accelerometer", "Gyroscope", "Proximity", "Compass"]
+      },
+      "features": ["200MP camera", "120W fast charging", "120Hz display", "5G", "IP68 rating"],
+      "pros": ["Excellent 200MP camera", "Very fast charging", "Good build quality", "Great value"],
+      "cons": ["Heavy software skin", "Plastic frame", "Average performance"]
+    },
+    {
+      "id": 8,
+      "name": "iQOO Neo 9 Pro",
+      "brand": "Vivo",
+      "model": "iQOO Neo 9 Pro",
+      "price": 36999,
+      "availability": "in-stock",
+      "imageUrl": "/images/phones/iqoo-neo9-pro.jpg",
+      "category": "mid-range",
+      "releaseDate": "2024-02-22",
+      "rating": 4.0,
+      "specs": {
+        "display": { "size": "6.78 inches", "resolution": "1260x2800", "type": "LTPO AMOLED", "refreshRate": "144Hz", "brightness": "3000 nits" },
+        "processor": { "chipset": "Snapdragon 8 Gen 2", "cpu": "Octa-core", "gpu": "Adreno 740" },
+        "memory": { "ram": "8GB", "storage": ["128GB", "256GB"], "expandable": false },
+        "camera": {
+          "rear": { "primary": "50MP", "ultrawide": "8MP", "features": ["OIS", "Night mode", "Portrait", "Pro mode"] },
+          "front": { "primary": "16MP", "features": ["Portrait", "Night mode"] },
+          "video": { "rear": "4K@60fps", "front": "1080p@30fps" }
+        },
+        "battery": { "capacity": "5160mAh", "fastCharging": "120W", "batteryLife": "Up to 24 hours typical use" },
+        "os": { "name": "Android 14", "version": "Funtouch OS 14", "upgradable": true },
+        "build": { "dimensions": "164.7 x 76.7 x 7.9 mm", "weight": "190g", "material": "Aluminum frame, Glass back", "colors": ["Conqueror Black", "Fiery Red"], "waterResistance": "IP54" },
+        "connectivity": { "network": ["5G", "4G LTE"], "wifi": "Wi-Fi 7", "bluetooth": "5.4", "nfc": true, "usb": "USB-C" },
+        "security": ["Fingerprint", "Face unlock"],
+        "sensors": ["Accelerometer", "Gyroscope", "Proximity", "Compass"]
+      },
+      "features": ["144Hz display", "120W fast charging", "Gaming focused", "5G", "Premium design"],
+      "pros": ["High refresh rate display", "Excellent gaming performance", "Fast charging", "Good build"],
+      "cons": ["Average camera", "Heavy software", "No wireless charging"]
+    },
+    {
+      "id": 9,
+      "name": "Poco X6 Pro",
+      "brand": "Xiaomi",
+      "model": "Poco X6 Pro",
+      "price": 26999,
+      "availability": "in-stock",
+      "imageUrl": "/images/phones/poco-x6-pro.jpg",
+      "category": "budget",
+      "releaseDate": "2024-01-11",
+      "rating": 4.1,
+      "specs": {
+        "display": { "size": "6.67 inches", "resolution": "1220x2712", "type": "AMOLED", "refreshRate": "120Hz", "brightness": "1800 nits" },
+        "processor": { "chipset": "MediaTek Dimensity 8300 Ultra", "cpu": "Octa-core", "gpu": "Mali-G615 MC6" },
+        "memory": { "ram": "8GB", "storage": ["256GB"], "expandable": true, "maxExpandable": "1TB" },
+        "camera": {
+          "rear": { "primary": "64MP", "ultrawide": "8MP", "macro": "2MP", "features": ["Night mode", "Portrait", "Pro mode"] },
+          "front": { "primary": "16MP", "features": ["Portrait", "Night mode"] },
+          "video": { "rear": "4K@30fps", "front": "1080p@30fps" }
+        },
+        "battery": { "capacity": "5000mAh", "fastCharging": "67W", "batteryLife": "Up to 23 hours video" },
+        "os": { "name": "Android 14", "version": "HyperOS", "upgradable": true },
+        "build": { "dimensions": "161.2 x 74.3 x 8.2 mm", "weight": "186g", "material": "Plastic frame, Glass back", "colors": ["Black", "Yellow", "Gray"], "waterResistance": "IP54" },
+        "connectivity": { "network": ["5G", "4G LTE"], "wifi": "Wi-Fi 6", "bluetooth": "5.4", "nfc": true, "usb": "USB-C" },
+        "security": ["Fingerprint", "Face unlock"],
+        "sensors": ["Accelerometer", "Gyroscope", "Proximity", "Compass"]
+      },
+      "features": ["67W fast charging", "120Hz AMOLED", "5G", "Expandable storage", "Gaming optimizations"],
+      "pros": ["Great performance", "Fast charging", "Good display", "Excellent value"],
+      "cons": ["Plastic build", "Average camera", "Heavy software"]
+    },
+    {
+      "id": 10,
+      "name": "Realme 12 Pro+",
+      "brand": "Realme",
+      "model": "12 Pro+",
+      "price": 29999,
+      "availability": "in-stock",
+      "imageUrl": "/images/phones/realme-12-pro-plus.jpg",
+      "category": "mid-range",
+      "releaseDate": "2024-01-29",
+      "rating": 4.0,
+      "specs": {
+        "display": { "size": "6.7 inches", "resolution": "1080x2412", "type": "AMOLED", "refreshRate": "120Hz", "brightness": "950 nits" },
+        "processor": { "chipset": "Snapdragon 7s Gen 2", "cpu": "Octa-core", "gpu": "Adreno 710" },
+        "memory": { "ram": "8GB", "storage": ["128GB", "256GB"], "expandable": true, "maxExpandable": "2TB" },
+        "camera": {
+          "rear": { "primary": "50MP", "ultrawide": "8MP", "telephoto": "64MP", "features": ["OIS", "Night mode", "Portrait", "3x optical zoom"] },
+          "front": { "primary": "32MP", "features": ["Portrait", "Night mode"] },
+          "video": { "rear": "4K@30fps", "front": "1080p@30fps" }
+        },
+        "battery": { "capacity": "5000mAh", "fastCharging": "67W", "batteryLife": "Up to 22 hours video" },
+        "os": { "name": "Android 14", "version": "Realme UI 5.0", "upgradable": true },
+        "build": { "dimensions": "161.5 x 74.0 x 8.8 mm", "weight": "196g", "material": "Plastic frame, Vegan leather back", "colors": ["Submarine Blue", "Explorer Red", "Navigator Beige"], "waterResistance": "IP65" },
+        "connectivity": { "network": ["5G", "4G LTE"], "wifi": "Wi-Fi 6", "bluetooth": "5.2", "nfc": true, "usb": "USB-C" },
+        "security": ["Fingerprint", "Face unlock"],
+        "sensors": ["Accelerometer", "Gyroscope", "Proximity", "Compass"]
+      },
+      "features": ["Periscope telephoto", "67W fast charging", "120Hz display", "5G", "Unique design"],
+      "pros": ["Excellent telephoto camera", "Premium design", "Good performance", "Fast charging"],
+      "cons": ["Average main camera", "Plastic build", "Heavy software"]
+    },
+    {
+      "id": 11,
+      "name": "iPhone 15 Pro",
+      "brand": "Apple",
+      "model": "iPhone 15 Pro",
+      "price": 134900,
+      "availability": "in-stock",
+      "imageUrl": "/images/phones/iphone-15-pro.jpg",
+      "category": "flagship",
+      "releaseDate": "2023-09-22",
+      "rating": 4.6,
+      "specs": {
+        "display": { "size": "6.1 inches", "resolution": "1179x2556", "type": "Super Retina XDR OLED", "refreshRate": "120Hz", "brightness": "1000 nits" },
+        "processor": { "chipset": "A17 Pro", "cpu": "Hexa-core", "gpu": "Apple GPU (6-core)" },
+        "memory": { "ram": "8GB", "storage": ["128GB", "256GB", "512GB", "1TB"], "expandable": false },
+        "camera": {
+          "rear": { "primary": "48MP", "ultrawide": "12MP", "telephoto": "12MP", "features": ["OIS", "Night mode", "Portrait", "Action mode", "3x optical zoom"] },
+          "front": { "primary": "12MP", "features": ["Portrait", "Night mode", "Face ID"] },
+          "video": { "rear": "4K@60fps", "front": "4K@60fps" }
+        },
+        "battery": { "capacity": "3274mAh", "fastCharging": "27W", "wirelessCharging": "15W", "batteryLife": "Up to 23 hours video" },
+        "os": { "name": "iOS 17", "version": "17.0", "upgradable": true },
+        "build": { "dimensions": "146.6 x 70.6 x 8.25 mm", "weight": "187g", "material": "Titanium frame, Glass back", "colors": ["Natural Titanium", "Blue Titanium", "White Titanium", "Black Titanium"], "waterResistance": "IP68" },
+        "connectivity": { "network": ["5G", "4G LTE"], "wifi": "Wi-Fi 6E", "bluetooth": "5.3", "nfc": true, "usb": "USB-C" },
+        "security": ["Face ID"],
+        "sensors": ["Accelerometer", "Gyroscope", "Proximity", "Ambient light", "LiDAR"]
+      },
+      "features": ["120Hz ProMotion", "Titanium build", "Action Button", "USB-C", "ProRAW"],
+      "pros": ["Premium titanium build", "120Hz display", "Excellent cameras", "A17 Pro performance"],
+      "cons": ["Very expensive", "Limited RAM", "No expandable storage"]
+    },
+    {
+      "id": 12,
+      "name": "Samsung Galaxy S24 Ultra",
+      "brand": "Samsung",
+      "model": "Galaxy S24 Ultra",
+      "price": 129999,
+      "availability": "in-stock",
+      "imageUrl": "/images/phones/galaxy-s24-ultra.jpg",
+      "category": "flagship",
+      "releaseDate": "2024-01-17",
+      "rating": 4.7,
+      "specs": {
+        "display": { "size": "6.8 inches", "resolution": "1440x3120", "type": "Dynamic AMOLED 2X", "refreshRate": "120Hz", "brightness": "2600 nits" },
+        "processor": { "chipset": "Snapdragon 8 Gen 3", "cpu": "Octa-core", "gpu": "Adreno 750" },
+        "memory": { "ram": "12GB", "storage": ["256GB", "512GB", "1TB"], "expandable": false },
+        "camera": {
+          "rear": { "primary": "200MP", "ultrawide": "12MP", "telephoto": "50MP", "periscope": "10MP", "features": ["OIS", "Night mode", "Portrait", "100x zoom"] },
+          "front": { "primary": "12MP", "features": ["Portrait", "Night mode"] },
+          "video": { "rear": "8K@30fps", "front": "4K@60fps" }
+        },
+        "battery": { "capacity": "5000mAh", "fastCharging": "45W", "wirelessCharging": "15W", "batteryLife": "Up to 28 hours video" },
+        "os": { "name": "Android 14", "version": "One UI 6.1", "upgradable": true },
+        "build": { "dimensions": "162.3 x 79.0 x 8.6 mm", "weight": "232g", "material": "Aluminum frame, Glass back", "colors": ["Titanium Black", "Titanium Gray", "Titanium Violet", "Titanium Yellow"], "waterResistance": "IP68" },
+        "connectivity": { "network": ["5G", "4G LTE"], "wifi": "Wi-Fi 7", "bluetooth": "5.3", "nfc": true, "usb": "USB-C" },
+        "security": ["Fingerprint", "Face unlock"],
+        "sensors": ["Accelerometer", "Gyroscope", "Proximity", "Compass", "S Pen"]
+      },
+      "features": ["S Pen", "100x zoom", "200MP camera", "AI features", "Large display"],
+      "pros": ["Best-in-class cameras", "S Pen functionality", "Excellent display", "Long battery life"],
+      "cons": ["Very expensive", "Heavy", "No expandable storage"]
+    },
+    {
+      "id": 13,
+      "name": "Redmi 13C",
+      "brand": "Xiaomi",
+      "model": "Redmi 13C",
+      "price": 10999,
+      "availability": "in-stock",
+      "imageUrl": "/images/phones/redmi-13c.jpg",
+      "category": "budget",
+      "releaseDate": "2023-12-06",
+      "rating": 3.8,
+      "specs": {
+        "display": { "size": "6.74 inches", "resolution": "720x1600", "type": "IPS LCD", "refreshRate": "90Hz", "brightness": "500 nits" },
+        "processor": { "chipset": "MediaTek Helio G85", "cpu": "Octa-core", "gpu": "Mali-G52 MC2" },
+        "memory": { "ram": "4GB", "storage": ["128GB"], "expandable": true, "maxExpandable": "1TB" },
+        "camera": {
+          "rear": { "primary": "50MP", "macro": "2MP", "depth": "0.08MP", "features": ["Night mode", "Portrait"] },
+          "front": { "primary": "8MP", "features": ["Portrait"] },
+          "video": { "rear": "1080p@30fps", "front": "1080p@30fps" }
+        },
+        "battery": { "capacity": "5000mAh", "fastCharging": "18W", "batteryLife": "Up to 20 hours video" },
+        "os": { "name": "Android 13", "version": "MIUI 14", "upgradable": true },
+        "build": { "dimensions": "168.6 x 76.3 x 8.09 mm", "weight": "192g", "material": "Plastic frame and back", "colors": ["Navy Blue", "Clover Green", "Star Black"], "waterResistance": "IP53" },
+        "connectivity": { "network": ["4G LTE"], "wifi": "Wi-Fi 5", "bluetooth": "5.3", "nfc": false, "usb": "USB-C" },
+        "security": ["Fingerprint", "Face unlock"],
+        "sensors": ["Accelerometer", "Proximity", "Compass"]
+      },
+      "features": ["Large display", "5000mAh battery", "Expandable storage", "90Hz refresh rate"],
+      "pros": ["Good battery life", "Decent performance for price", "Expandable storage", "Large screen"],
+      "cons": ["Low resolution display", "Basic cameras", "No 5G", "Plastic build"]
+    },
+    {
+      "id": 14,
+      "name": "Realme C67",
+      "brand": "Realme",
+      "model": "C67",
+      "price": 13999,
+      "availability": "in-stock",
+      "imageUrl": "/images/phones/realme-c67.jpg",
+      "category": "budget",
+      "releaseDate": "2023-12-14",
+      "rating": 3.9,
+      "specs": {
+        "display": { "size": "6.72 inches", "resolution": "1080x2400", "type": "IPS LCD", "refreshRate": "90Hz", "brightness": "680 nits" },
+        "processor": { "chipset": "Snapdragon 685", "cpu": "Octa-core", "gpu": "Adreno 610" },
+        "memory": { "ram": "6GB", "storage": ["128GB"], "expandable": true, "maxExpandable": "2TB" },
+        "camera": {
+          "rear": { "primary": "108MP", "depth": "2MP", "features": ["Night mode", "Portrait", "Pro mode"] },
+          "front": { "primary": "8MP", "features": ["Portrait"] },
+          "video": { "rear": "1080p@30fps", "front": "1080p@30fps" }
+        },
+        "battery": { "capacity": "5000mAh", "fastCharging": "33W", "batteryLife": "Up to 21 hours video" },
+        "os": { "name": "Android 14", "version": "Realme UI 5.0", "upgradable": true },
+        "build": { "dimensions": "165.7 x 76.0 x 7.89 mm", "weight": "190g", "material": "Plastic frame and back", "colors": ["Sunny Orange", "Dark Purple"], "waterResistance": "IP54" },
+        "connectivity": { "network": ["4G LTE"], "wifi": "Wi-Fi 5", "bluetooth": "5.0", "nfc": false, "usb": "USB-C" },
+        "security": ["Fingerprint", "Face unlock"],
+        "sensors": ["Accelerometer", "Proximity", "Compass"]
+      },
+      "features": ["108MP camera", "33W fast charging", "6GB RAM", "90Hz display"],
+      "pros": ["High-resolution camera", "Fast charging", "Good display", "Decent performance"],
+      "cons": ["No 5G", "Plastic build", "Average battery life", "No NFC"]
+    },
+    {
+      "id": 15,
+      "name": "Vivo Y27",
+      "brand": "Vivo",
+      "model": "Y27",
+      "price": 15999,
+      "availability": "in-stock",
+      "imageUrl": "/images/phones/vivo-y27.jpg",
+      "category": "budget",
+      "releaseDate": "2023-08-03",
+      "rating": 3.7,
+      "specs": {
+        "display": { "size": "6.64 inches", "resolution": "1080x2388", "type": "IPS LCD", "refreshRate": "90Hz", "brightness": "625 nits" },
+        "processor": { "chipset": "MediaTek Helio G85", "cpu": "Octa-core", "gpu": "Mali-G52 MC2" },
+        "memory": { "ram": "6GB", "storage": ["128GB"], "expandable": true, "maxExpandable": "1TB" },
+        "camera": {
+          "rear": { "primary": "50MP", "depth": "2MP", "features": ["Night mode", "Portrait"] },
+          "front": { "primary": "8MP", "features": ["Portrait"] },
+          "video": { "rear": "1080p@30fps", "front": "1080p@30fps" }
+        },
+        "battery": { "capacity": "5000mAh", "fastCharging": "44W", "batteryLife": "Up to 19 hours video" },
+        "os": { "name": "Android 13", "version": "Funtouch OS 13", "upgradable": true },
+        "build": { "dimensions": "164.6 x 75.4 x 8.1 mm", "weight": "190g", "material": "Plastic frame and back", "colors": ["Burgundy Black", "Garden Green"], "waterResistance": "IP54" },
+        "connectivity": { "network": ["4G LTE"], "wifi": "Wi-Fi 5", "bluetooth": "5.0", "nfc": false, "usb": "USB-C" },
+        "security": ["Fingerprint", "Face unlock"],
+        "sensors": ["Accelerometer", "Proximity", "Compass"]
+      },
+      "features": ["44W fast charging", "5000mAh battery", "6GB RAM", "90Hz display"],
+      "pros": ["Fast charging", "Good battery life", "Decent performance", "Good build quality"],
+      "cons": ["No 5G", "Average camera", "Heavy software", "No NFC"]
+    }
+  ]
+}

@@ -1,0 +1,397 @@
+{
+  "phones": [
+    {
+      "id": 1,
+      "name": "iPhone 15",
+      "brand": "Apple",
+      "model": "iPhone 15",
+      "price": 79900,
+      "originalPrice": 79900,
+      "availability": "in-stock",
+      "imageUrl": "/images/phones/iphone-15.jpg",
+      "category": "premium",
+      "releaseDate": "2023-09-22",
+      "rating": 4.5,
+      "reviewCount": 1250,
+      "specs": {
+        "display": {
+          "size": "6.1 inches",
+          "resolution": "1179x2556",
+          "type": "Super Retina XDR OLED",
+          "refreshRate": "60Hz",
+          "brightness": "1000 nits"
+        },
+        "processor": {
+          "chipset": "A16 Bionic",
+          "cpu": "Hexa-core",
+          "gpu": "Apple GPU (5-core)"
+        },
+        "memory": {
+          "ram": "6GB",
+          "storage": ["128GB", "256GB", "512GB"],
+          "expandable": false
+        },
+        "camera": {
+          "rear": {
+            "primary": "48MP",
+            "ultrawide": "12MP",
+            "features": ["OIS", "Night mode", "Portrait", "Cinematic mode"]
+          },
+          "front": {
+            "primary": "12MP",
+            "features": ["Portrait", "Night mode", "Face ID"]
+          },
+          "video": {
+            "rear": "4K@60fps",
+            "front": "4K@60fps"
+          }
+        },
+        "battery": {
+          "capacity": "3349mAh",
+          "fastCharging": "20W",
+          "wirelessCharging": "15W",
+          "batteryLife": "Up to 20 hours video"
+        },
+        "os": {
+          "name": "iOS 17",
+          "version": "17.0",
+          "upgradable": true
+        },
+        "build": {
+          "dimensions": "147.6 x 71.6 x 7.80 mm",
+          "weight": "171g",
+          "material": "Aluminum frame, Glass back",
+          "colors": ["Blue", "Pink", "Yellow", "Green", "Black"],
+          "waterResistance": "IP68"
+        },
+        "connectivity": {
+          "network": ["5G", "4G LTE"],
+          "wifi": "Wi-Fi 6",
+          "bluetooth": "5.3",
+          "nfc": true,
+          "usb": "USB-C"
+        },
+        "security": ["Face ID"],
+        "sensors": ["Accelerometer", "Gyroscope", "Proximity", "Ambient light"]
+      },
+      "features": ["Face ID", "Wireless charging", "Water resistant", "5G", "Night mode"],
+      "pros": ["Excellent camera quality", "Premium build", "Great ecosystem", "Long software support"],
+      "cons": ["60Hz display", "No expandable storage", "Expensive"]
+    },
+    {
+      "id": 2,
+      "name": "Samsung Galaxy S24",
+      "brand": "Samsung",
+      "model": "Galaxy S24",
+      "price": 74999,
+      "originalPrice": 79999,
+      "availability": "in-stock",
+      "imageUrl": "/images/phones/galaxy-s24.jpg",
+      "category": "premium",
+      "releaseDate": "2024-01-17",
+      "rating": 4.4,
+      "reviewCount": 980,
+      "specs": {
+        "display": {
+          "size": "6.2 inches",
+          "resolution": "1080x2340",
+          "type": "Dynamic AMOLED 2X",
+          "refreshRate": "120Hz",
+          "brightness": "2600 nits"
+        },
+        "processor": {
+          "chipset": "Snapdragon 8 Gen 3",
+          "cpu": "Octa-core",
+          "gpu": "Adreno 750"
+        },
+        "memory": {
+          "ram": "8GB",
+          "storage": ["128GB", "256GB"],
+          "expandable": false
+        },
+        "camera": {
+          "rear": {
+            "primary": "50MP",
+            "ultrawide": "12MP",
+            "telephoto": "10MP",
+            "features": ["OIS", "Night mode", "Portrait", "Pro mode", "3x optical zoom"]
+          },
+          "front": {
+            "primary": "12MP",
+            "features": ["Portrait", "Night mode"]
+          },
+          "video": {
+            "rear": "8K@30fps",
+            "front": "4K@60fps"
+          }
+        },
+        "battery": {
+          "capacity": "4000mAh",
+          "fastCharging": "25W",
+          "wirelessCharging": "15W",
+          "batteryLife": "Up to 22 hours video"
+        },
+        "os": {
+          "name": "Android 14",
+          "version": "One UI 6.0",
+          "upgradable": true
+        },
+        "build": {
+          "dimensions": "147.0 x 70.6 x 7.6 mm",
+          "weight": "167g",
+          "material": "Aluminum frame, Glass back",
+          "colors": ["Onyx Black", "Marble Gray", "Cobalt Violet", "Amber Yellow"],
+          "waterResistance": "IP68"
+        },
+        "connectivity": {
+          "network": ["5G", "4G LTE"],
+          "wifi": "Wi-Fi 6E",
+          "bluetooth": "5.3",
+          "nfc": true,
+          "usb": "USB-C"
+        },
+        "security": ["Fingerprint", "Face unlock"],
+        "sensors": ["Accelerometer", "Gyroscope", "Proximity", "Compass"]
+      },
+      "features": ["120Hz display", "Wireless charging", "Water resistant", "5G", "S Pen support"],
+      "pros": ["120Hz AMOLED display", "Excellent cameras", "Good performance", "Regular updates"],
+      "cons": ["No expandable storage", "Average battery life", "Expensive"]
+    },
+    {
+      "id": 3,
+      "name": "OnePlus 12R",
+      "brand": "OnePlus",
+      "model": "12R",
+      "price": 39999,
+      "originalPrice": 42999,
+      "availability": "in-stock",
+      "imageUrl": "/images/phones/oneplus-12r.jpg",
+      "category": "mid-range",
+      "releaseDate": "2024-02-13",
+      "rating": 4.3,
+      "reviewCount": 756,
+      "specs": {
+        "display": {
+          "size": "6.78 inches",
+          "resolution": "1264x2780",
+          "type": "LTPO4 AMOLED",
+          "refreshRate": "120Hz",
+          "brightness": "4500 nits"
+        },
+        "processor": {
+          "chipset": "Snapdragon 8 Gen 2",
+          "cpu": "Octa-core",
+          "gpu": "Adreno 740"
+        },
+        "memory": {
+          "ram": "8GB",
+          "storage": ["128GB", "256GB"],
+          "expandable": false
+        },
+        "camera": {
+          "rear": {
+            "primary": "50MP",
+            "ultrawide": "8MP",
+            "macro": "2MP",
+            "features": ["OIS", "Night mode", "Portrait", "Pro mode"]
+          },
+          "front": {
+            "primary": "16MP",
+            "features": ["Portrait", "Night mode"]
+          },
+          "video": {
+            "rear": "4K@60fps",
+            "front": "1080p@30fps"
+          }
+        },
+        "battery": {
+          "capacity": "5500mAh",
+          "fastCharging": "100W",
+          "wirelessCharging": "50W",
+          "batteryLife": "Up to 25 hours video"
+        },
+        "os": {
+          "name": "Android 14",
+          "version": "OxygenOS 14",
+          "upgradable": true
+        },
+        "build": {
+          "dimensions": "163.3 x 75.3 x 8.8 mm",
+          "weight": "207g",
+          "material": "Aluminum frame, Glass back",
+          "colors": ["Cool Blue", "Iron Gray"],
+          "waterResistance": "IP64"
+        },
+        "connectivity": {
+          "network": ["5G", "4G LTE"],
+          "wifi": "Wi-Fi 7",
+          "bluetooth": "5.4",
+          "nfc": true,
+          "usb": "USB-C"
+        },
+        "security": ["Fingerprint", "Face unlock"],
+        "sensors": ["Accelerometer", "Gyroscope", "Proximity", "Compass"]
+      },
+      "features": ["100W fast charging", "120Hz display", "Large battery", "5G", "Premium design"],
+      "pros": ["Extremely fast charging", "Large battery", "Smooth performance", "Great value"],
+      "cons": ["Average camera", "No wireless charging", "Heavy build"]
+    },
+    {
+      "id": 4,
+      "name": "Google Pixel 8a",
+      "brand": "Google",
+      "model": "Pixel 8a",
+      "price": 52999,
+      "originalPrice": 54999,
+      "availability": "in-stock",
+      "imageUrl": "/images/phones/pixel-8a.jpg",
+      "category": "mid-range",
+      "releaseDate": "2024-05-14",
+      "rating": 4.2,
+      "reviewCount": 643,
+      "specs": {
+        "display": {
+          "size": "6.1 inches",
+          "resolution": "1080x2400",
+          "type": "OLED",
+          "refreshRate": "120Hz",
+          "brightness": "1400 nits"
+        },
+        "processor": {
+          "chipset": "Google Tensor G3",
+          "cpu": "Octa-core",
+          "gpu": "Mali-G715 MP7"
+        },
+        "memory": {
+          "ram": "8GB",
+          "storage": ["128GB", "256GB"],
+          "expandable": false
+        },
+        "camera": {
+          "rear": {
+            "primary": "64MP",
+            "ultrawide": "13MP",
+            "features": ["OIS", "Night Sight", "Portrait", "Magic Eraser", "Real Tone"]
+          },
+          "front": {
+            "primary": "13MP",
+            "features": ["Portrait", "Night Sight"]
+          },
+          "video": {
+            "rear": "4K@60fps",
+            "front": "4K@30fps"
+          }
+        },
+        "battery": {
+          "capacity": "4492mAh",
+          "fastCharging": "18W",
+          "wirelessCharging": "7.5W",
+          "batteryLife": "Up to 24 hours typical use"
+        },
+        "os": {
+          "name": "Android 14",
+          "version": "Pure Android",
+          "upgradable": true
+        },
+        "build": {
+          "dimensions": "152.1 x 72.7 x 8.9 mm",
+          "weight": "193g",
+          "material": "Aluminum frame, Plastic back",
+          "colors": ["Obsidian", "Porcelain", "Bay", "Aloe"],
+          "waterResistance": "IP67"
+        },
+        "connectivity": {
+          "network": ["5G", "4G LTE"],
+          "wifi": "Wi-Fi 6E",
+          "bluetooth": "5.3",
+          "nfc": true,
+          "usb": "USB-C"
+        },
+        "security": ["Fingerprint", "Face unlock"],
+        "sensors": ["Accelerometer", "Gyroscope", "Proximity", "Compass"]
+      },
+      "features": ["Pure Android", "Excellent camera AI", "Fast updates", "5G", "Wireless charging"],
+      "pros": ["Best-in-class camera", "Clean Android experience", "Fast security updates", "AI features"],
+      "cons": ["Slow charging", "Plastic build", "Average performance"]
+    },
+    {
+      "id": 5,
+      "name": "Xiaomi 14",
+      "brand": "Xiaomi",
+      "model": "14",
+      "price": 69999,
+      "originalPrice": 72999,
+      "availability": "in-stock",
+      "imageUrl": "/images/phones/xiaomi-14.jpg",
+      "category": "premium",
+      "releaseDate": "2024-03-07",
+      "rating": 4.1,
+      "reviewCount": 524,
+      "specs": {
+        "display": {
+          "size": "6.36 inches",
+          "resolution": "1200x2670",
+          "type": "LTPO OLED",
+          "refreshRate": "120Hz",
+          "brightness": "3000 nits"
+        },
+        "processor": {
+          "chipset": "Snapdragon 8 Gen 3",
+          "cpu": "Octa-core",
+          "gpu": "Adreno 750"
+        },
+        "memory": {
+          "ram": "12GB",
+          "storage": ["256GB", "512GB"],
+          "expandable": false
+        },
+        "camera": {
+          "rear": {
+            "primary": "50MP",
+            "ultrawide": "50MP",
+            "telephoto": "50MP",
+            "features": ["OIS", "Night mode", "Portrait", "Leica optics", "3.2x optical zoom"]
+          },
+          "front": {
+            "primary": "32MP",
+            "features": ["Portrait", "Night mode"]
+          },
+          "video": {
+            "rear": "8K@24fps",
+            "front": "4K@60fps"
+          }
+        },
+        "battery": {
+          "capacity": "4610mAh",
+          "fastCharging": "90W",
+          "wirelessCharging": "50W",
+          "batteryLife": "Up to 23 hours video"
+        },
+        "os": {
+          "name": "Android 14",
+          "version": "HyperOS",
+          "upgradable": true
+        },
+        "build": {
+          "dimensions": "152.8 x 71.5 x 8.2 mm",
+          "weight": "193g",
+          "material": "Aluminum frame, Glass back",
+          "colors": ["Black", "White", "Green", "Pink"],
+          "waterResistance": "IP68"
+        },
+        "connectivity": {
+          "network": ["5G", "4G LTE"],
+          "wifi": "Wi-Fi 7",
+          "bluetooth": "5.4",
+          "nfc": true,
+          "usb": "USB-C"
+        },
+        "security": ["Fingerprint", "Face unlock"],
+        "sensors": ["Accelerometer", "Gyroscope", "Proximity", "Compass"]
+      },
+      "features": ["Leica cameras", "90W fast charging", "120Hz display", "5G", "Premium design"],
+      "pros": ["Excellent Leica cameras", "Very fast charging", "Compact flagship", "High-quality display"],
+      "cons": ["MIUI can be heavy", "No expandable storage", "Limited availability"]
+    }
+  ]
+}
