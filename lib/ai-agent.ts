@@ -9,9 +9,9 @@ import { searchPhones, getPhonesByCriteria, getPhoneById, searchPhonesByText } f
  * Handles secure chat interactions and phone recommendations
  */
 
-// Initialize Google AI (commented out for testing)
-const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY || '');
-const model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash' });
+// Initialize Google AI
+const genAI = new GoogleGenerativeAI(process.env.GOOGLE_AI_API_KEY || process.env.GOOGLE_API_KEY || '');
+const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
 
 // System prompt for the AI agent
 const SYSTEM_PROMPT = `You are a helpful mobile phone shopping assistant. Your role is to help customers discover, compare, and choose mobile phones based on their needs and budget.
