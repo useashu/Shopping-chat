@@ -4,10 +4,6 @@
   "outputDirectory": ".next",
   "installCommand": "npm install",
   "devCommand": "npm run dev",
-  "env": {
-    "GOOGLE_AI_API_KEY": "@google_ai_api_key",
-    "GOOGLE_API_KEY": "@google_ai_api_key"
-  },
   "functions": {
     "app/api/chat/route.ts": {
       "maxDuration": 30
